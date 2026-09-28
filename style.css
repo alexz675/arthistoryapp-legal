@@ -1,0 +1,28 @@
+:root {
+  --canvas: #FFFFFF;
+  --ink: #020003;
+  --ink-muted: #6E6A63;
+  --line: #E6E2DC;
+  --brown: #928376;
+  --font-ui: "Avenir Next", "Nunito", system-ui, -apple-system, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.6;
+}
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 72px; }
+h1 { font-family: var(--font-serif); font-weight: 400; font-size: 44px; line-height: 1.1; margin: 0 0 8px; }
+h2 { font-size: 19px; font-weight: 800; margin: 36px 0 8px; }
+p, li { color: var(--ink); }
+.meta { color: var(--ink-muted); font-size: 14px; margin: 0 0 28px; }
+a { color: var(--brown); font-weight: 700; }
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
+.card { border: 1px solid var(--line); border-radius: 14px; padding: 4px 20px; }
+footer { margin-top: 48px; color: var(--ink-muted); font-size: 14px; }
